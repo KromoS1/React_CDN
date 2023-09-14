@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 18px;
+	line-height: 1.8rem;
+	font-family: Nunito, sans-serif;
+	color: #a4acc4;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: transparent;
+	overflow: auto;
+}
+
+*, :after, :before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	background-color: #383838;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #6b6b6b;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #383838;
+}
+
+::selection {
+	background: #037fff;
+	color: #fff;
+}
+
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	body {
+			font-size: 16px;
+	}
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	background-color:#9bcdff;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+}
+
+.container-form {
+	width: 300px;
+	height: 200px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	display:flex;
+	justify-content:center;
+	margin-bottom: 150px;
+}
+
+.form {
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.form input{
+	padding: 5px;
+}
+
+.form button{
+	padding: 5px;
+}
+
+.container-counter {
+	width: 100%;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.settings {
+	width: 300px;
+	height: 200px;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 10px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+
+.settings input{
+	padding: 5px;
+}
+
+.settings button{
+	padding: 5px;
+}
+
+.display {
+	width: 300px;
+	height: 200px;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 10px;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.display .count {
+	width:100%;
+	height: 100px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid gray;
+	border-radius: 10px;
+	font-weight: 400;
+	color: black;
+}
+
+.display .btns {
+	border: 1px solid gray;
+	border-radius: 10px;
+	width:100%;
+	height: 50px;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.display button{
+	padding: 5px;
+	width: 100px;
+}

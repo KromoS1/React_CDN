@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>React_cdn</title>
+
+	<!-- Обычное использование Cdn -->
+	<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+  <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+	<script crossorigin src='https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.22.17/babel.min.js'></script>	
+
+	<!-- Добавляет TypeScript  -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typescript/5.2.2/typescript.min.js"></script>
+	<link href="index.css"rel="stylesheet" type="text/css" />
+</head>
+<body>
+	
+	<div class="container">
+		<div id="form" class="container-form"></div>
+		<div id="counter" class="container-counter"></div>
+	</div>
+
+	<script src="./helper/formatDataForm.js"></script>
+
+	<script src="./form/index.js" type="text/babel"></script>
+
+	<script src="./counter/index.tsx" type="text/babel"></script>
+	
+</body>
+</html>
